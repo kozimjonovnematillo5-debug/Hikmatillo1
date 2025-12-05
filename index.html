@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mamitov Hikmatillo | Matematika O'qituvchisi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <header class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <a href="#home">Portfolio</a>
+                </div>
+                <nav class="nav-menu" id="navMenu">
+                    <a href="#home" class="nav-link">Bosh sahifa</a>
+                    <a href="#about" class="nav-link">Men haqimda</a>
+                    <a href="#skills" class="nav-link">Ko'nikmalar</a>
+                    <a href="#projects" class="nav-link">Loyihalar</a>
+                    <a href="#contact" class="nav-link">Aloqa</a>
+                </nav>
+                <button class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="greeting">Salom, men</span>
+                    <span class="name">Mamitov Hikmatillo</span>
+                    <span class="profession">Matematika Fani O'qituvchisi</span>
+                </h1>
+                <p class="hero-description">
+                    Andijon Davlat Universiteti katta o'qituvchisi. "Kelajak Daholari" o'quv markazi asoschisi. 
+                    Matematikadan 1000+ o'quvchi-talabalar ustozi. Matematika fanidan Respublika va Xalqaro fan olimpiadalari g'olibi, professional o'qituvchi.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">Loyihalarim</a>
+                    <a href="#contact" class="btn btn-secondary">Bog'lanish</a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">Men haqimda</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="rasm1.jpg" alt="Mamitov Hikmatillo" class="profile-image" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                    <div class="image-placeholder" style="display: none;">
+                        <i class="fas fa-user"></i>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <p>
+                        Men Andijon Davlat Universiteti Amaliy matematika kafedrasi katta o'qituvchisiman. 
+                        Matematika faniga maktab davridanoq qiziqishim yuqori bo'lgan. Respublika va Xalqaro olimpiadalarda qatnashib yuqori o'rinlarni egallaganman.
+                    </p>
+                    <p>
+                        Bakalavr va Magistraturani Andijon Davlat Universitetida tamomlaganman. 
+                        Hozirda universitetda katta o'qituvchi sifatida faoliyat yuritib, 1000 dan ziyod 
+                        o'quvchi-talabalarga matematika fanini o'rgataman.
+                    </p>
+                    <p>
+                        Men "Kelajak Daholari" o'quv markazining asoschisiman. O'quv markazimizda 
+                        matematika fanidan sifatli ta'lim berib, o'quvchilarning bilim va ko'nikmalarini 
+                        rivojlantirishga yordam beramiz. Markazimiz zamonaviy metodlar va innovatsion 
+                        yondashuvlar bilan o'quvchilarga eng yaxshi ta'limni taqdim etadi.
+                    </p>
+                    <p>
+                        Mening asosiy maqsadim - matematika fani rivojiga o'z hissamni qo'shish va ko'proq 
+                        o'quvchilarga sifatli ta'lim berish. Men har doim o'z bilimlarimni 
+                        takomillashtirishga va yangi metodlarni o'rganishga intilaman.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">1000+</span>
+                            <span class="stat-label">O'quvchi-talabalar</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">IELTS 7</span>
+                            <span class="stat-label">Xalqaro sertifikat</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">SAT 1400</span>
+                            <span class="stat-label">Matematika: 800</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Ko'nikmalar va Sertifikatlar</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-calculator"></i>
+                    </div>
+                    <h3 class="skill-name">Matematika</h3>
+                    <div class="progress-bar">
+                        <div class="progress-fill" data-progress="98"></div>
+                    </div>
+                    <span class="skill-percent">98%</span>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                    </div>
+                    <h3 class="skill-name">O'qitish</h3>
+                    <div class="progress-bar">
+                        <div class="progress-fill" data-progress="95"></div>
+                    </div>
+                    <span class="skill-percent">95%</span>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h3 class="skill-name">Olimpiada</h3>
+                    <div class="progress-bar">
+                        <div class="progress-fill" data-progress="92"></div>
+                    </div>
+                    <span class="skill-percent">92%</span>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3 class="skill-name">IELTS 7.0</h3>
+                    <div class="progress-bar">
+                        <div class="progress-fill" data-progress="100"></div>
+                    </div>
+                    <span class="skill-percent">Overall 7</span>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3 class="skill-name">SAT 1400</h3>
+                    <div class="progress-bar">
+                        <div class="progress-fill" data-progress="93"></div>
+                    </div>
+                    <span class="skill-percent">Math: 800</span>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <h3 class="skill-name">Milliy Sertifikat</h3>
+                    <div class="progress-bar">
+                        <div class="progress-fill" data-progress="100"></div>
+                    </div>
+                    <span class="skill-percent">A+ Daraja</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Loyihalar</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" title="Ko'rish">
+                                    <i class="fas fa-eye"></i>
+                                </a>
+                                <a href="#" class="project-link" title="GitHub">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-placeholder">
+                            <i class="fas fa-chalkboard"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Matematika Online Kurs Platformasi</h3>
+                        <p class="project-description">
+                            Matematika fanidan to'liq funksional online kurs platformasi. 
+                            Video darslar, interaktiv mashqlar, testlar va progress tracking 
+                            tizimi bilan jihozlangan. O'quvchilar uchun qulay va samarali ta'lim olish imkoniyati.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Online Kurs</span>
+                            <span class="tag">Video Darslar</span>
+                            <span class="tag">Interaktiv</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" title="Ko'rish">
+                                    <i class="fas fa-eye"></i>
+                                </a>
+                                <a href="#" class="project-link" title="GitHub">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-placeholder">
+                            <i class="fas fa-trophy"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Olimpiada Tayyorgarlik Dasturi</h3>
+                        <p class="project-description">
+                            Matematika olimpiadalari uchun maxsus tayyorgarlik dasturi. 
+                            Maktab o'quvchilari uchun 5-sinfdan 11-sinfgacha bo'lgan 
+                            olimpiada masalalarini yechish metodikasi va amaliy mashqlar to'plami.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Olimpiada</span>
+                            <span class="tag">Tayyorgarlik</span>
+                            <span class="tag">Metodika</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" title="Ko'rish">
+                                    <i class="fas fa-eye"></i>
+                                </a>
+                                <a href="#" class="project-link" title="GitHub">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-placeholder">
+                            <i class="fas fa-book"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Universitet Darsliklari va Materiallar</h3>
+                        <p class="project-description">
+                            Amaliy matematika kafedrasi uchun tayyorlangan darsliklar, 
+                            metodik qo'llanmalar va o'quv materiallari. Talabalar uchun 
+                            qo'shimcha resurslar va mustaqil o'rganish uchun materiallar to'plami.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Darsliklar</span>
+                            <span class="tag">Metodika</span>
+                            <span class="tag">Resurslar</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Aloqa</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <p class="contact-description">
+                        Matematika kurslari, olimpiada tayyorgarligi yoki boshqa savollar bo'lsa, 
+                        men bilan bog'laning. Men tez orada javob beraman.
+                    </p>
+                    <div class="contact-links">
+                        <a href="mailto:mamitovhikmatillo77@gmail.com" class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Email</h4>
+                                <p>mamitovhikmatillo77@gmail.com</p>
+                            </div>
+                        </a>
+                        <a href="https://t.me/hikmatillo_04" target="_blank" class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fab fa-telegram"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Telegram</h4>
+                                <p>@hikmatillo_04</p>
+                            </div>
+                        </a>
+                        <a href="https://maps.google.com/maps?q=40.799870,72.364565&ll=40.799870,72.364565&z=16" target="_blank" class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Joylashuv</h4>
+                                <p>Andijon</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Ismingiz" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Email manzilingiz" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="5" placeholder="Xabaringiz" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Xabar yuborish</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Mamitov Hikmatillo. Barcha huquqlar himoyalangan.</p>
+            <div class="footer-social">
+                <a href="https://github.com/hikmatillomamitov" target="_blank" class="social-link">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://t.me/Mathsayt_bot" target="_blank" class="social-link">
+                    <i class="fab fa-telegram"></i>
+                </a>
+                <a href="mailto:mamitovhikmatillo77@gmail.com" class="social-link">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
